@@ -1,0 +1,38 @@
+<%= render "customer/layouts/slidebar"%>
+<div class="clear"></div>
+<div class="wrap">
+  <div class="content">
+    <%= render "customer/layouts/top3"%>
+    <div class="content-grids">
+      <h4>Hàng mới về</h4>
+      <div class="section group">
+        <% for i in 1..4 %>
+          <div class="grid_1_of_4 images_1_of_4 products-info">
+            <%= image_tag("", alt: "photo") %>
+            <%= link_to "ten san pham", products_show_path %>
+            <h3>$260</h3>
+            <div class="pl-3 pr-3">
+              <p class="bg-danger">
+                <%= link_to "Add to cart", "#" %>
+              <p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <h4>Top bán chạy</h4>
+      <div class="section group">
+        <% for i in 1..4 %>
+          <div class="grid_1_of_4 images_1_of_4 products-info">
+            <%= image_tag("", alt: "photo") %>
+            <%= link_to "ten san pham", products_show_path %>
+            <h3>$260</h3>
+            <ul>
+            </ul>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <%= render "customer/layouts/right_menu"%>
+  </div>
+  <div class="clear"> </div>
+</div>

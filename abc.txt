@@ -1,0 +1,8 @@
+
+$gray-medium-light: #e9dfdf;
+$gray-light-light: #e5e5e5;
+$gray-light:#E8E7DC;
+$gray-medium: #525049;
+$gray-dark: #575757;
+$green-light: #94CB32;
+$red-light: #F7503D;

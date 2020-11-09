@@ -1,0 +1,2 @@
+module Customer::StaticPagesHelper
+end

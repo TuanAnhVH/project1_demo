@@ -1,0 +1,36 @@
+<div class="wrap">
+	<div class="header">
+		<div class="search-bar">
+			<form>
+				<input type="text">
+				<input type="submit" value="Search" />
+			</form>
+		</div>
+		<div class="clear"> </div>
+		<div class="header-top-nav">
+			<ul>
+				<li><%= link_to "Register", "#" %></li>
+				<li><%= link_to "Login", "#" %></li>
+				<li><%= link_to "My account", "#" %></li>
+				<li><%= link_to "Cart:", "#" %></li>&nbsp;0 items
+			</ul>
+		</div>
+		<div class="clear"> </div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="top-header">
+	<div class="wrap">
+		<div class="logo">
+    <%= link_to image_tag("customer/logo.png", alt: "logo"),root_path %>
+	  </div>
+		<div class="top-nav">
+			<ul>
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "About", about_path %></li>
+				<li><%= link_to "Contact", contact_path %></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
